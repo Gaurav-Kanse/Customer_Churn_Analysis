@@ -1,0 +1,25 @@
+DROP TABLE IF EXISTS customers;
+CREATE TABLE customers (
+  customerID TEXT PRIMARY KEY,
+  gender TEXT NOT NULL,
+  SeniorCitizen INTEGER NOT NULL CHECK (SeniorCitizen IN (0,1)),
+  Partner TEXT NOT NULL CHECK (Partner IN ('Yes','No')),
+  Dependents TEXT NOT NULL CHECK (Dependents IN ('Yes','No')),
+  tenure INTEGER NOT NULL CHECK (tenure BETWEEN 0 AND 72),
+  PhoneService TEXT NOT NULL CHECK (PhoneService IN ('Yes','No')),
+  MultipleLines TEXT NOT NULL,
+  InternetService TEXT NOT NULL,
+  OnlineSecurity TEXT NOT NULL,
+  OnlineBackup TEXT NOT NULL,
+  DeviceProtection TEXT NOT NULL,
+  TechSupport TEXT NOT NULL,
+  StreamingTV TEXT NOT NULL,
+  StreamingMovies TEXT NOT NULL,
+  Contract TEXT NOT NULL,
+  PaperlessBilling TEXT NOT NULL CHECK (PaperlessBilling IN ('Yes','No')),
+  PaymentMethod TEXT NOT NULL,
+  MonthlyCharges REAL NOT NULL CHECK (MonthlyCharges >= 0),
+  TotalCharges REAL CHECK (TotalCharges IS NULL OR TotalCharges >= 0),
+  Churn TEXT NOT NULL CHECK (Churn IN ('Yes','No')),
+  TenureGroup TEXT NOT NULL
+);

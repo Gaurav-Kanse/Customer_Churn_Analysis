@@ -1,0 +1,5 @@
+Segment,Customers,Churned,ChurnRate
+Bank transfer (automatic),1544,258,0.16709845
+Credit card (automatic),1522,232,0.15243101
+Electronic check,2365,1071,0.45285412
+Mailed check,1612,308,0.191067

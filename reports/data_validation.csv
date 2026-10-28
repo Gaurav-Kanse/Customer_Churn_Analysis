@@ -1,0 +1,8 @@
+check_name,result
+row_count,7043
+duplicate_customer_ids,0
+missing_customer_ids,0
+missing_total_charges,11
+missing_or_invalid_tenure_group,0
+tenure_zero_with_charge,0
+tenure_nonzero_without_charge,0

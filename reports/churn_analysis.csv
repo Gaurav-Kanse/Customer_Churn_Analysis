@@ -1,0 +1,17 @@
+dimension,segment,customers,churned,churn_rate
+overall,All customers,7043,1869,0.26536987
+contract,Month-to-month,3875,1655,0.42709677
+contract,One year,1473,166,0.11269518
+contract,Two year,1695,48,0.02831858
+tenure_group,13–24 months,1024,294,0.28710938
+tenure_group,1–12 months,2186,1037,0.47438243
+tenure_group,25–48 months,1594,325,0.20388959
+tenure_group,49–60 months,832,120,0.14423077
+tenure_group,61–72 months,1407,93,0.06609808
+payment_method,Bank transfer (automatic),1544,258,0.16709845
+payment_method,Credit card (automatic),1522,232,0.15243101
+payment_method,Electronic check,2365,1071,0.45285412
+payment_method,Mailed check,1612,308,0.191067
+internet_service,DSL,2421,459,0.18959108
+internet_service,Fiber optic,3096,1297,0.41892765
+internet_service,No,1526,113,0.0740498

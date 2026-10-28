@@ -1,0 +1,3 @@
+# Runtime and analysis use only the Python standard library.
+# Install pytest to run the automated test suite.
+pytest>=8.0,<9.0
